@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             message = "Too Low!";
         }else{
             message = "Correct";
+
         }
 
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
